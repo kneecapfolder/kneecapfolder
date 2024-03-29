@@ -1,6 +1,20 @@
-### Hi there 👋
+```java
+public class Person {
+  public String name;
+  public String status;
+
+  public Person(String name, String status) {
+    this.name = name;
+    this.status = status;
+  }
+}
+
+Person me = new Person("kneecapfolder", "learning");
+```
 
 <!--
+### Hi there 👋
+
 **kneecapfolder/kneecapfolder** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
