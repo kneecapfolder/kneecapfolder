@@ -1,9 +1,9 @@
-```java
+```cs
 public class Person {
-  public String name;
-  public String status;
+  public string name { get; set; };
+  public string status { get; set; };
 
-  public Person(String name, String status) {
+  public Person(string name, string status) {
     this.name = name;
     this.status = status;
   }
