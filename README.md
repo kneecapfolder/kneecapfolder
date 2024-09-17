@@ -1,12 +1,15 @@
 ```cs
 public class Person {
-  public string name { get; set; };
-  public string status { get; set; };
+    private string name;
+    private string status;
 
-  public Person(string name, string status) {
-    this.name = name;
-    this.status = status;
-  }
+    public string Name { get; set; };
+    public string Status { get; set; };
+
+    public Person(string name, string status) {
+        this.name = name;
+        this.status = status;
+    }
 }
 
 Person me = new Person("kneecapfolder", "learning");
